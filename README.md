@@ -33,3 +33,14 @@ Los portales, manual, CSS, los cinco vídeos originales y el motor de cuatro ron
 El código fuente y el almacenamiento local usan nombres propios de STRATEGOS IA. Las funciones SQL conservan temporalmente el prefijo interno `cbc_`, pero se ejecutan **solo en el proyecto Supabase nuevo**. No introduzcas en `sync.js` la dirección ni la clave del proyecto original. El profesor y los equipos deben usar únicamente los códigos y credenciales de la nueva instancia.
 
 **El nombre STRATEGOS IA no implica funciones de inteligencia artificial en esta primera versión; es una copia funcional y no incluye agentes IA ni integraciones de modelos.**
+
+
+## Informes estratégicos automáticos por ronda
+
+- Tras publicar una ronda, cada alumno verá su **informe de cierre** desde **4 · Resultados**, únicamente con los indicadores de su empresa.
+- Para cada ronda publicada se incluyen **rentabilidad, liquidez, competitividad y sostenibilidad**, conclusiones basadas en datos, riesgos, recomendaciones y preguntas para el debate.
+- El alumno puede cambiar la ronda e **imprimir / guardar como PDF** desde el navegador.
+- En el panel autenticado del profesor, bajo los resultados, aparece **Informes estratégicos de cierre** con un selector de equipos.
+- La elaboración del informe base se hace **localmente y sin coste de API**; la ampliación opcional mediante el botón **Ampliar interpretación con IA** llama a la función segura `strategos-advisor` y consume crédito de OpenAI.
+- El informe no cambia la calificación ni muestra decisiones no publicadas. Las recomendaciones usan umbrales didácticos, no predicen resultados futuros.
+- Archivos: `reports.js` y los portales `index.html` y `profesor.html`.
