@@ -44,6 +44,16 @@ const CBCSync = (() => {
    session=data;sessionStorage.setItem(store,JSON.stringify(session));
    return rpc('cbc_teacher_state');
  }
+ async function advisor(code,question){
+   checkSetup();
+   const response=await fetch(base+'/functions/v1/strategos-advisor',{
+     method:'POST',headers:{'apikey':key,'Content-Type':'application/json'},
+     body:JSON.stringify({code,question})
+   }).catch(()=>{throw Error('No se pudo contactar con el asesor.');});
+   const data=await response.json().catch(()=>({}));
+   if(!response.ok)throw Error(data.error||'Función IA no desplegada ('+response.status+').');
+   return data;
+ }
  function logout(){session=null;sessionStorage.removeItem(store)}
- return {rpc,login,logout,currentToken};
+ return {rpc,login,logout,currentToken,advisor};
 })();
