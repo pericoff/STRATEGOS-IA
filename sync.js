@@ -1,6 +1,6 @@
 /* Sincronización Supabase: no se usan claves privadas en el navegador. */
 const CBCSync = (() => {
- const base=''; // URL del NUEVO proyecto Supabase de STRATEGOS IA.
+ const base='https://syewhwkgccavsalzbekm.supabase.co'; // URL del NUEVO proyecto Supabase de STRATEGOS IA.
  const key=''; // Clave publishable/anon del NUEVO proyecto Supabase.
  const store='strategos_ia_teacher_session_v1';
  let session=null;
