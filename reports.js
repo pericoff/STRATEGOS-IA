@@ -75,8 +75,9 @@ const StrategosReports=(()=>{
     root.querySelector('.strategos-print').onclick=()=>{
       document.querySelectorAll('.strategos-report-shell').forEach(el=>el.classList.remove('strategos-print-target'));
       root.classList.add('strategos-print-target');
+      const clear=()=>{root.classList.remove('strategos-print-target');window.removeEventListener('afterprint',clear);};
+      window.addEventListener('afterprint',clear,{once:true});
       window.print();
-      root.classList.remove('strategos-print-target');
     };
     root.querySelector('.strategos-report-ai').onclick=async e=>{
       if(!code){out.textContent='Para solicitar interpretación generativa, accede con un código de equipo válido.';return;}
