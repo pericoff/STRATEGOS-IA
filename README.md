@@ -1,5 +1,15 @@
 # STRATEGOS IA
 
+## Canvas eliminado (versión actual)
+
+Se ha eliminado el Business Model Canvas de la interfaz del alumnado y del panel docente, incluidos el formulario, la presentación, la rúbrica y el requisito que impedía enviar decisiones antes de completarlo. El alumnado puede entrar directamente en **Decisiones** y participar desde la primera ronda.
+
+La clasificación final ahora es la **media de las cuatro puntuaciones de ronda (100 %)**. Los ajustes por coherencia estratégica de las elecciones cerradas (rondas 1 y 3) siguen formando parte de la puntuación de cada ronda.
+
+El cambio no ejecuta ningún borrado ni reinicia Supabase: pueden quedar campos históricos `idea` o `canvasGrade` almacenados, pero ya no participan en los cálculos ni aparecen en el portal. No se requiere SQL adicional. Los repositorios de Circular Business Challenge 2 y STRATEGOS STRATEGY LAB permanecen independientes.
+
+
+
 ## Decisiones estratégicas vinculantes (actualización)
 
 Tomando como referencia la presentación docente aportada, se han introducido **dos decisiones de opción múltiple dentro de las cuatro rondas**, manteniendo las siete variables económicas en cada ronda:
@@ -21,7 +31,7 @@ El motor conserva la puntuación original (0–100) y aplica un ajuste separado:
 
 ## Estado
 
-Los portales, manual, CSS, los cinco vídeos originales y el motor de cuatro rondas están copiados. **La aplicación todavía no está conectada**: por seguridad `sync.js` tiene vacíos tanto la URL como la clave de Supabase. No utiliza ni puede modificar la partida original.
+Los portales, manual, vídeos y motor de cuatro rondas están desplegados en un repositorio independiente. La partida utiliza su propia configuración de Supabase; consulta `sync.js` para el proyecto configurado.
 
 ## Activación de la aplicación
 
