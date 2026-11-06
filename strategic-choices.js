@@ -21,7 +21,7 @@ const StrategicChoices=(()=>{
  const strategy=(team,currentRound,decision)=>{
   if(currentRound===1&&decision?.strategyChoice)return decision.strategyChoice;
   const history=Array.isArray(team?.history)?team.history:[];
-  return history.find(x=>Number(x.round)===1)?.strategyChoice||null;
+  return history.find(x=>Number(x.round)===1)?.strategyChoice||history.find(x=>Number(x.round)===3)?.strategyChoice||decision?.strategyChoice||null;
  };
  const action=(team,currentRound,decision)=>{
   if(currentRound===3&&decision?.actionChoice)return decision.actionChoice;
@@ -49,13 +49,15 @@ const StrategicChoices=(()=>{
   if(round===3&&!actions[d?.actionChoice])return 'Selecciona una alternativa estratégica para la tercera ronda.';
   return '';
  }
- function picker(round,d){
+ function picker(round,d,team){
   const kind=round===1?'strategyChoice':round===3?'actionChoice':null;
   if(!kind)return '';
+  const catchup=round===3&&!strategy(team,round,d);
+  const catchupPanel=catchup?'<section class="card"><h3>Definir estrategia inicial para la partida en curso</h3><p>Esta partida comenzó antes de incluir la elección de estrategia. Elegid una ahora para que las puntuaciones de esta y la próxima ronda puedan evaluar su coherencia. Los resultados anteriores no se recalcularán.</p>'+Object.entries(strategies).map(([key,v])=>'<label style="display:block;margin:8px 0"><input type="radio" name="strategyChoice" value="'+key+'" style="width:auto" required> <b>'+v.label+'</b> · '+v.description+'</label>').join('')+'</section>':'';
   const options=round===1?strategies:actions;
   const heading=round===1?'Decisión estratégica 1/2 · ¿Cómo queréis competir?':'Decisión estratégica 2/2 · ¿Qué acción priorizaréis?';
   const intro=round===1?'Elegid una de las tres estrategias. Será el compromiso de vuestra empresa en las cuatro rondas, y las puntuaciones posteriores premiarán o penalizarán la coherencia con las inversiones.':'Elegid una iniciativa para reforzar vuestra estrategia. La coherencia con la elección inicial y las inversiones condicionará las puntuaciones de las rondas 3 y 4.';
-  return '<section class="card" style="border:2px solid #8ca9d0"><h3>'+heading+'</h3><p>'+intro+'</p>'+
+  return catchupPanel+'<section class="card" style="border:2px solid #8ca9d0"><h3>'+heading+'</h3><p>'+intro+'</p>'+
    Object.entries(options).map(([key,v])=>'<label style="display:block;padding:12px;margin:8px 0;border:1px solid #d0d8e7;border-radius:10px;cursor:pointer"><input type="radio" name="'+kind+'" value="'+key+'" style="width:auto;margin-right:8px" '+(d?.[kind]===key?'checked':'')+' required><b>'+v.label+'</b><span style="display:block;margin:5px 0 0 24px">'+v.description+'</span></label>').join('')+
    '<p class="muted">No existe una opción ganadora automáticamente. Los recursos, la política comercial y el contexto determinarán el resultado.</p></section>';
  }
