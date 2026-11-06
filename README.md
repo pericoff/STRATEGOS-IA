@@ -1,5 +1,22 @@
 # STRATEGOS IA
 
+## Decisiones estratégicas vinculantes (actualización)
+
+Tomando como referencia la presentación docente aportada, se han introducido **dos decisiones de opción múltiple dentro de las cuatro rondas**, manteniendo las siete variables económicas en cada ronda:
+
+- **Ronda 1: estrategia competitiva.** Elegir una sola opción entre **liderazgo en costes**, **diferenciación** y **segmentación/enfoque**. Se mantiene como compromiso en rondas posteriores.
+- **Ronda 3: iniciativa prioritaria.** Elegir entre **automatización/eficiencia**, **innovación/calidad/circularidad** y **especialización comercial**. Su alineamiento con la elección inicial repercute en rondas 3 y 4.
+
+El motor conserva la puntuación original (0–100) y aplica un ajuste separado: **+3/−3 puntos por coherencia entre inversiones, precio y estrategia** en cada ronda y, desde la ronda 3, **+2/−2 por la iniciativa alineada con la estrategia**, siempre limitado a 0–100. Las estrategias no conceden ventajas automáticas de demanda o beneficio. El ajuste se almacena con el resultado y se presenta tanto al alumno como al profesor.
+
+**Condiciones didácticas exactas:** costes: `capacityInv >= 10000` y `price <= 50`; diferenciación: `rdInv + ecoInv >= 20000` y `price >= 40`; enfoque: `marketingInv >= 12000` y `price >= 42`. Las iniciativas alineadas respectivamente son eficiencia, innovación y especialización.
+
+**Partidas existentes:** los resultados históricos no se recalculan. En una partida iniciada antes de la mejora se puede definir la estrategia en la ronda 3, junto con la iniciativa. Si no existe selección histórica (o hubo cierre forzoso), la puntuación conserva el cálculo anterior hasta que se haga una elección explícita.
+
+**Datos y despliegue:** se guardan los identificadores de opción en el JSON `p_decision` de la RPC `cbc_submit_decision`. El SQL actual acepta estos campos adicionales, por lo que no requiere migración. La validación de opciones cerradas ocurre en el cliente; no se deben presentar los selectores como una restricción impuesta por la base de datos. El cálculo de puntos se realiza en el motor del panel docente en el cierre de cada ronda, y el docente puede revisar el ajuste aplicado. Archivo nuevo: `strategic-choices.js`.
+
+
+
 **Simulación empresarial independiente**, clonada del motor de Circular Business Challenge 2.
 
 ## Estado
