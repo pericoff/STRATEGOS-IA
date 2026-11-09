@@ -1,5 +1,20 @@
 # STRATEGOS IA
 
+## Renovación audiovisual · cinco vídeos (noviembre de 2026)
+
+La versión vigente necesita **un vídeo general y cuatro vídeos de rondas**. Los cinco guiones completos (locución en español y planos sugeridos) ya están en:
+
+1. [Presentación general](guiones-video/00-presentacion-general.md)
+2. [Ronda 1: estrategia competitiva](guiones-video/01-ronda-1.md)
+3. [Ronda 2: revisión de resultados](guiones-video/02-ronda-2.md)
+4. [Ronda 3: evento e iniciativa estratégica](guiones-video/03-ronda-3.md)
+5. [Ronda 4: consolidación y clasificación](guiones-video/04-ronda-4.md)
+
+**Estado:** guiones y briefings integrados, producción audiovisual aún pendiente. Las cinco URL de `videos.json` se han dejado vacías deliberadamente para no reproducir vídeos antiguos que expliquen reglas obsoletas. Al generar y publicar los cinco nuevos vídeos (YouTube/Vimeo/MP4), colocar sus URL públicas, en este orden, en `videos.json`. Se mantiene el botón para continuar a las decisiones mientras no hay vídeos. Los enlaces a los guiones vigentes aparecen en el portal.
+
+No se han cambiado las reglas del motor ni los datos de Supabase para renovar los vídeos.
+
+
 ## Canvas eliminado (versión actual)
 
 Se ha eliminado el Business Model Canvas de la interfaz del alumnado y del panel docente, incluidos el formulario, la presentación, la rúbrica y el requisito que impedía enviar decisiones antes de completarlo. El alumnado puede entrar directamente en **Decisiones** y participar desde la primera ronda.
