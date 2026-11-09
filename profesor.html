@@ -178,7 +178,7 @@ function csvExport(){
   rows.push([rr.round,rr.event,r.name,r.sales,r.share,r.operating,r.cash,r.circular,r.quality,r.emissions,r.baseScore,r.strategyAdjustment,r.score,r.strategyChoice,r.actionChoice].map(v));
  }
  const safe=x=>'"'+String(x).replace(/"/g,'""')+'"';
- const blob=new Blob(['\\ufeff'+rows.map(row=>row.map(safe).join(';')).join('\\r\\n')],{type:'text/csv;charset=utf-8'});
+ const blob=new Blob(['\ufeff'+rows.map(row=>row.map(safe).join(';')).join('\r\n')],{type:'text/csv;charset=utf-8'});
  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='strategos_ia_resultados_completos.csv';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),500);
 }
 function render(){
