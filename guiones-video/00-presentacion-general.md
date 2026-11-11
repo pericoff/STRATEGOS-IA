@@ -2,7 +2,7 @@
 
 **Simulación:** STRATEGOS IA · Universidad de Jaén
 
-**Duración orientativa:** 5–6 minutos a ritmo pausado.
+**Duración orientativa:** 6–7 minutos a ritmo pausado.
 
 **Formato:** narración en español de España, tono docente y profesional; insertar capturas reales del simulador y gráficos sencillos. No mostrar Canvas. Estos tiempos son orientativos y deben ajustarse durante la locución.
 
@@ -20,26 +20,41 @@ Cada equipo controla una empresa que compite en el mismo mercado industrial, con
 
 En cada ronda debéis introducir siete valores. Primero, el precio de venta por unidad, entre veinte y noventa euros. Segundo, la producción prevista, entre cero y veinticinco mil unidades, siempre condicionada por vuestra capacidad. Tercero, la inversión en capacidad productiva: cada seis euros invertidos generan una unidad adicional de capacidad en el modelo. Cuarto, la inversión en investigación, desarrollo y calidad, que mejora la calidad y la tecnología. Quinto, la inversión ambiental, que refuerza el desempeño ecológico. Sexto, la inversión comercial o de marketing, que mejora el atractivo de la oferta. Séptimo, el porcentaje de materia prima recuperada, entre cero y noventa por ciento. La inversión conjunta de las cuatro partidas de inversión no puede superar ciento cincuenta mil euros por ronda y, además, la empresa debe conservar al menos quince mil euros de tesorería al decidir. Invertir cuesta dinero ahora para intentar crear ventajas futuras.
 
-## DOS ELECCIONES ESTRATÉGICAS · 03:00–03:55
+## DOS ELECCIONES ESTRATÉGICAS · 03:00–04:00
 
-Además de esas siete variables, dos rondas incluyen una decisión especial entre tres alternativas cerradas. En la ronda uno definiréis cómo queréis competir: liderazgo en costes, diferenciación o enfoque en un segmento. Esa estrategia os compromete durante las rondas siguientes. En la ronda tres elegiréis una iniciativa: automatización y eficiencia; innovación, calidad y circularidad; o especialización comercial. La aplicación observa si las decisiones económicas respaldan lo que habéis declarado. La coherencia puede sumar tres puntos a la puntuación de cada ronda, y la incoherencia restar tres. Desde la ronda tres, una iniciativa que encaja con la estrategia añade dos puntos más; una contradictoria resta dos. No basta con elegir una etiqueta atractiva: habrá que respaldarla con precios e inversiones.
+Además de esas siete variables, dos rondas incluyen una decisión especial entre tres alternativas cerradas. En la primera ronda escogeréis cómo queréis competir: liderazgo en costes, diferenciación o enfoque en un segmento. Es un compromiso que debéis sostener durante toda la partida. En la tercera ronda elegiréis una iniciativa para ponerlo en práctica: automatización y eficiencia, innovación y circularidad, o especialización comercial.
 
-## CÓMO SE CALCULA EL RESULTADO · 03:55–04:55
+La puntuación no depende simplemente de la opción que marcáis, sino también de su coherencia con los recursos que empleáis. En cada ronda, un precio y unas inversiones alineados con la estrategia pueden sumar tres puntos, o restar tres si no existe esa coherencia. Desde la tercera ronda se añaden otros dos puntos positivos o negativos según encaje la iniciativa con vuestra estrategia inicial. Ninguna elección concede beneficios económicos automáticos: los resultados dependen también de las siete decisiones numéricas.
 
-El profesor recibe las decisiones de todos los equipos y, cuando cierra la ronda, el simulador calcula los resultados de manera conjunta. El atractivo comercial depende del precio, la calidad, el esfuerzo de marketing y el desempeño ambiental. Las ventas quedan limitadas por la producción decidida, la capacidad disponible y la demanda del mercado. Los ingresos dependen de las unidades vendidas y del precio; los costes incluyen un coste variable y veintiocho mil euros de costes fijos por ronda. La caja final incorpora el resultado operativo y descuenta las inversiones. La puntuación de cada ronda combina rentabilidad, cuota, circularidad, calidad, tesorería y capacidad de generar resultados económicos. La nota final es la media de las cuatro rondas: cien por cien simulación, sin evaluación Canvas. Los ajustes de coherencia ya están incorporados en la nota de cada ronda.
+## UNA SITUACIÓN EXTRAORDINARIA · 04:00–04:35
 
-## CÓMO PARTICIPAR · 04:55–05:45
+En la tercera ronda hay además un elemento nuevo: el profesor podrá activar por sorpresa una situación empresarial extraordinaria. Todos los equipos se enfrentarán al mismo problema, pero cada uno tendrá que decidir cómo responder desde su propia estrategia. Recibiréis un aviso dentro de STRATEGOS IA, seleccionaréis una de cuatro respuestas posibles y justificaréis vuestra elección. No es una quinta ronda ni sustituye las decisiones habituales. Su efecto aparecerá en la puntuación de la tercera ronda y se mantendrá, parcialmente, en la cuarta. No conoceréis el escenario concreto hasta su activación, porque el objetivo es poner a prueba vuestra capacidad de adaptación.
 
-Para comenzar, recibid del profesor el código privado de vuestro equipo. Entrad en STRATEGOS IA y consultad el vídeo de la ronda. En Decisiones, revisad el acontecimiento de mercado, elegid la estrategia o iniciativa cuando corresponda, introducid los siete valores y comprobad el presupuesto. Pulsad Enviar decisiones del equipo y verificad la confirmación de guardado: si no aparece, no deis por entregada la ronda. Cuando el profesor publique resultados, analizad las ventas, el margen, la tesorería y los puntos obtenidos antes de abrir la siguiente. Podéis consultar el Asesor IA para contrastar alternativas, pero la responsabilidad de decidir es vuestra. El reto no consiste en acertar una opción aislada: consiste en mantener una dirección estratégica coherente durante cuatro decisiones consecutivas.
+## CÓMO SE CALCULA EL RESULTADO · 04:35–05:40
+
+El profesor recibe las decisiones de los equipos y, al publicar la ronda, el simulador calcula los resultados de manera conjunta. El atractivo comercial depende del precio, la calidad, el esfuerzo de marketing y el desempeño ambiental. Las ventas están limitadas por la producción elegida, la capacidad disponible y la demanda que existe en el mercado. Los ingresos proceden de las unidades vendidas y el precio; los costes incluyen una parte variable y veintiocho mil euros de costes fijos en cada ronda. La tesorería final incorpora el resultado operativo y descuenta las inversiones.
+
+Cada ronda obtiene una puntuación de cero a cien que combina rentabilidad, cuota, circularidad, calidad, liquidez y resultados económicos. Sobre esa puntuación se incorporan los ajustes estratégicos pertinentes. En la tercera y cuarta rondas también puede influir la decisión tomada frente a la situación extraordinaria. El resultado definitivo es la media de las cuatro puntuaciones: cada ronda aporta una cuarta parte. No existe evaluación del Business Model Canvas.
+
+## CÓMO PARTICIPAR · 05:40–06:45
+
+Al comenzar, recibid del profesor el código privado de vuestro equipo. Entrad en STRATEGOS IA y consultad el vídeo y la misión de cada ronda. En el apartado Decisiones, revisad el evento de mercado publicado, elegid la estrategia o la iniciativa cuando corresponda, introducid los siete valores económicos y comprobad el presupuesto. Pulsad «Enviar decisiones del equipo» y verificad la confirmación: si no aparece, no deis por registrada vuestra entrega.
+
+Si en la tercera ronda el profesor activa el evento extraordinario, la aplicación mostrará un aviso también desde la pantalla de vídeo. Podréis acceder al nuevo formulario desde ese aviso o desde Decisiones. Si todavía no habéis enviado las decisiones ordinarias, debéis completarlas primero. Después escoged una respuesta, argumentadla y confirmad su envío; una vez registrada no se puede modificar. El profesor podrá ver qué equipos han contestado.
+
+Cuando se publiquen los resultados, analizad las ventas, la cuota, la tesorería y las puntuaciones antes de iniciar la siguiente ronda. Podéis consultar el Asesor IA para contrastar argumentos, pero ninguna herramienta sustituye vuestra responsabilidad al decidir. En STRATEGOS IA no gana quien adivina una respuesta aislada, sino quien construye una trayectoria estratégica viable y sabe reaccionar cuando cambian las circunstancias.
 
 ## Planos y recursos visuales sugeridos
 
-1. Portada institucional UJA y STRATEGOS IA, cuatro rondas conectadas
-2. Cuatro empresas comparten un mismo mercado, cifras iniciales animadas
-3. Interfaz real: los siete campos numéricos, presupuesto máximo y reserva mínima
-4. Dos tarjetas: estrategia en R1 e iniciativa en R3; flechas de coherencia
-5. Gráfico de ventas frente a producción y fórmula sencilla de nota media
-6. Secuencia real: código de equipo → decidir → enviar → resultados → asesor IA
+1. Portada institucional de la UJA y mapa de cuatro rondas; sin Canvas
+2. Empresas en un mercado compartido, cifras iniciales y restricciones
+3. Interfaz real con los siete campos y la comprobación de presupuesto
+4. Dos elecciones especiales: estrategia R1 e iniciativa R3, con el ajuste de coherencia
+5. Ilustración **neutra** de un aviso inesperado en R3, sin nombres, alternativas ni pistas sobre los cinco escenarios posibles
+6. Flujo visual: entregar decisiones ordinarias → aparece aviso docente → elegir entre cuatro respuestas → justificar → registrar
+7. Pantalla real de resultados y fórmula de media de las cuatro rondas
+
+**Nota de realización:** el vídeo general debe explicar que hay una sorpresa sin revelar su contenido. No utilizar capturas que anticipen ninguna crisis concreta ni qué alternativa ofrece mayor puntuación.
 
 ## Cierre de producción
 
