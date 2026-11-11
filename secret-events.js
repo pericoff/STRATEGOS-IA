@@ -7,7 +7,7 @@ const SecretEvents=(()=>{
   technology:{name:'Tecnología disruptiva',story:'Una solución de fabricación automatizada amenaza con dejar obsoletas las instalaciones actuales.',options:{A:'Automatizar inmediatamente parte de la planta',B:'Colaborar con un centro de investigación',C:'Especializar la producción actual',D:'Posponer la inversión y preservar caja'}},
   recession:{name:'Contracción económica inesperada',story:'La inversión en construcción cae y los clientes aplazan sus pedidos.',options:{A:'Reducir precios para mantener volumen',B:'Preservar caja y ajustar producción',C:'Buscar nichos de alto valor añadido',D:'Invertir en innovación y mercados futuros'}}
  };
- const preferences={supply:{cost:'B',differentiate:'C',focus:'A'},competitor:{cost:'A',differentiate:'B',focus:'C'},regulation:{cost:'B',differentiate:'C',focus:'A'},technology:{cost:'A',differentiate:'B',focus:'C'},recession:{cost:'B',differentiate:'D',focus:'C'}};
+ const preferences={supply:{cost:'B',differentiation:'C',focus:'A'},competitor:{cost:'A',differentiation:'B',focus:'C'},regulation:{cost:'B',differentiation:'C',focus:'A'},technology:{cost:'A',differentiation:'B',focus:'C'},recession:{cost:'B',differentiation:'D',focus:'C'}};
  const safe=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  function evaluate(eventId,answer,strategy){
   if(!events[eventId])return {delta:0,carry:0,reason:'No hay evento secreto activo.'};
