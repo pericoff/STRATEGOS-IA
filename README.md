@@ -1,5 +1,21 @@
 # STRATEGOS IA
 
+## Evento secreto extraordinario · ronda 3 (noviembre de 2026)
+
+Esta función se incorpora **dentro de la ronda 3**, sin crear una quinta ronda ni reemplazar la iniciativa estratégica cerrada. Los cinco escenarios son: ruptura de suministro, nuevo competidor, nueva regulación ambiental, tecnología disruptiva y contracción económica.
+
+- El profesor elige **un único evento por partida** y pulsa **Activar evento secreto para todos**. Hasta ese momento, el alumno no conoce el escenario. Se puede activar manualmente en cualquier momento mientras la ronda 3 esté abierta; los equipos que todavía no hayan entregado sus decisiones habituales deberán hacerlo antes de responder.
+- El alumnado verá un aviso en todas las secciones, incluido el vídeo, con acceso directo a **Decisiones**. Cada equipo elige una de cuatro respuestas y escribe una justificación de 20 a 1500 caracteres.
+- La función de Supabase `cbc_submit_secret_answer` valida la ronda, el evento activo, el código de equipo, la entrega ordinaria, la opción y la ausencia de respuestas duplicadas. `cbc_student_state` oculta las respuestas de equipos rivales mientras el juego está abierto.
+- Ajuste al resultado de la ronda 3: **+4 puntos** por respuesta alineada con la estrategia inicial, **−1 punto** por una alternativa menos alineada, o **−4 puntos** si no se responde (en cierre docente). Para una partida sin estrategia registrada, la alternativa válida suma **+1 punto**. No se recalculan resultados pasados.
+- **Efecto persistente en la ronda 4:** +2 / −1 / −2 puntos respectivamente. No se alteran las magnitudes económicas reales, solo la puntuación 0–100; el efecto aparece desglosado en la auditoría y en la exportación CSV.
+- El botón de cálculo queda bloqueado en la ronda 3 hasta activar un evento y completar las respuestas; el docente puede aplicar un cierre forzoso a equipos pendientes, registrando la penalización.
+- Ejecutar `supabase/secret-event-r3.sql` en el **proyecto Supabase de STRATEGOS IA** antes de publicar el código (la migración ya se aplicó al proyecto conectado). **No ejecutar `supabase/setup.sql` sobre partidas existentes.** No toca las tablas independientes `ssl_*`.
+- Pruebas de regresión reproducibles: `node --test tests/secret-events.test.cjs`. Las pruebas de flujo SQL deben hacerse en una transacción con `ROLLBACK`, nunca contra los datos reales de alumnos.
+
+**Aviso:** la activación manual debe ser una sorpresa real. Los materiales audiovisuales publicados antes de la ronda no deben revelar qué crisis seleccionará el profesor.
+
+
 ## Renovación audiovisual · cinco vídeos (noviembre de 2026)
 
 La versión vigente necesita **un vídeo general y cuatro vídeos de rondas**. Los cinco guiones completos (locución en español y planos sugeridos) ya están en:

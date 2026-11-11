@@ -19,13 +19,13 @@ const StrategosScoreAudit=(()=>{
     const publishedRow=published.get(round)?.rows.find(row=>Number(row.id)===Number(t.id));
     const historical=Array.isArray(t.history)?t.history.find(h=>Number(h.round)===round):null;
     const record=publishedRow||historical||null;
-    const score=num(record?.score),base=num(record?.baseScore),adjust=num(record?.strategyAdjustment);
+    const score=num(record?.score),base=num(record?.baseScore),adjust=num(record?.strategyAdjustment),secret=num(record?.secretAdjustment);
     const historyScore=num(historical?.score),publishedScore=num(publishedRow?.score);
     const mismatch=publishedScore!==null&&historyScore!==null&&Math.abs(publishedScore-historyScore)>0.051;
-    const formulaMismatch=score!==null&&base!==null&&adjust!==null&&Math.abs(score-Math.max(0,Math.min(100,Math.round((base+adjust)*10)/10)))>0.051;
+    const formulaMismatch=score!==null&&base!==null&&adjust!==null&&Math.abs(score-Math.max(0,Math.min(100,Math.round((base+adjust+(secret??0))*10)/10)))>0.051;
     const missing=!!record&&score===null;
     const incomplete=published.has(round)&&!publishedRow;
-    return {round,record,score,base,adjust,mismatch,formulaMismatch,missing,incomplete,historyOnly:!publishedRow&&!!historical};
+    return {round,record,score,base,adjust,secret,mismatch,formulaMismatch,missing,incomplete,historyOnly:!publishedRow&&!!historical};
    });
    const completed=items.filter(x=>x.score!==null&&!!published.get(x.round)).length;
    const total=items.filter(x=>x.score!==null&&!!published.get(x.round)).reduce((a,x)=>a+x.score,0);
@@ -51,9 +51,9 @@ const StrategosScoreAudit=(()=>{
   const row=scoreRows(state).find(x=>Number(x.id)===Number(team.id));if(!row)return '';
   const published=rounds(state);
   return '<section class="card"><h3>Detalle de puntuaciones por ronda</h3><p class="muted">Datos registrados. Los ajustes sólo aparecen cuando fueron guardados por la versión vigente en aquella ronda.</p>'+
-   '<div style="overflow-x:auto"><table><thead><tr><th>Ronda</th><th>Base</th><th>Coherencia</th><th>Total</th><th>Ventas</th><th>Resultado</th><th>Tesorería</th></tr></thead><tbody>'+
+   '<div style="overflow-x:auto"><table><thead><tr><th>Ronda</th><th>Base</th><th>Coherencia</th><th>Crisis sorpresa</th><th>Total</th><th>Ventas</th><th>Resultado</th><th>Tesorería</th></tr></thead><tbody>'+
    row.items.map(x=>'<tr><td>R'+x.round+(published.has(x.round)?'':' · pendiente')+'</td>'+
-   '<td class="num">'+fmt(x.base)+'</td><td class="num">'+(x.adjust===null?'No registrado':(x.adjust>0?'+':'')+fmt(x.adjust))+'</td><td class="num">'+fmt(x.score)+'</td>'+
+   '<td class="num">'+fmt(x.base)+'</td><td class="num">'+(x.adjust===null?'No registrado':(x.adjust>0?'+':'')+fmt(x.adjust))+'</td><td class="num">'+(x.secret===null?'No registrado':(x.secret>0?'+':'')+fmt(x.secret))+'</td><td class="num">'+fmt(x.score)+'</td>'+
    '<td class="num">'+fmt(x.record?.sales)+'</td><td class="num">'+money(x.record?.operating)+'</td><td class="num">'+money(x.record?.cash)+'</td></tr>').join('')+
    '</tbody></table></div></section>';
  }

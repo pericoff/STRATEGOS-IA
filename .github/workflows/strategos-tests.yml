@@ -1,0 +1,18 @@
+name: Pruebas STRATEGOS IA
+on:
+  push:
+    branches: [main, "feature/**"]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  secret-events:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validar cinco crisis y lógica de respuesta
+        run: node --test tests/secret-events.test.cjs
