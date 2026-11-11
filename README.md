@@ -78,13 +78,14 @@ Los portales, manual, vídeos y motor de cuatro rondas están desplegados en un 
 - Profesor: https://pericoff.github.io/STRATEGOS-IA/profesor.html
 - Manual: https://pericoff.github.io/STRATEGOS-IA/guia-alumnado.html
 
-## Funcionamiento
+## Funcionamiento y documentación vigente
 
-- Cuatro rondas y dos a cuatro empresas.
-- Siete decisiones empresariales, eventos, resultados y clasificación.
-- Business Model Canvas y rúbrica docente de siete criterios.
-- Nota final: **80 % de la media de las cuatro rondas + 20 % del Canvas**.
-- Cinco enlaces de vídeos copiados inicialmente del juego original: introducción general y rondas 1 a 4. Pueden sustituirse después.
+- **Cuatro rondas** con entre **dos y cuatro empresas**; siete decisiones económicas por equipo y ronda.
+- Elección de estrategia competitiva en R1; elección de iniciativa prioritaria en R3. Ambas condicionan los ajustes estratégicos de puntuación.
+- Evento económico visible en cada ronda y **evento extraordinario secreto en R3**, común a todos los equipos y activado manualmente por el profesor. El evento sorpresa exige una segunda entrega, con una de cuatro respuestas y justificación escrita.
+- La puntuación final es **el 100 % de la media de las cuatro rondas**. Los ajustes de coherencia y del evento secreto se incorporan a la puntuación de cada ronda; **no hay Canvas ni rúbrica Canvas**.
+- Cinco vídeos previstos: introducción general y rondas 1 a 4. Sus direcciones públicas se configuran en `videos.json`; los que todavía no tengan URL muestran un aviso de vídeo pendiente.
+- [Reglas completas y manual actualizado del alumnado](guia-alumnado.html). Las **Reglas del juego** de los portales `index.html` y `profesor.html` recogen la misma mecánica.
 
 ## Independencia y seguridad
 
