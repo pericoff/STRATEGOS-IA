@@ -1,41 +1,83 @@
-# Ronda 3 · Responder al cambio y elegir una iniciativa estratégica
+# Ronda 3 · Adaptarse al mercado y afrontar una decisión extraordinaria
 
 **Simulación:** STRATEGOS IA · Universidad de Jaén
 
-**Duración orientativa:** 4–5 minutos a ritmo pausado.
+**Duración orientativa:** 6–7 minutos, según ritmo de locución y capturas de pantalla.
 
-**Formato:** narración en español de España, tono docente y profesional; insertar capturas reales del simulador y gráficos sencillos. No mostrar Canvas. Estos tiempos son orientativos y deben ajustarse durante la locución.
+**Formato:** narración en español de España, tono docente claro, con interfaz real del alumno. No mostrar Canvas.
 
-**Estado:** guion listo para producir. No es todavía un archivo de vídeo.
+**Estado:** guion actualizado para la nueva versión del simulador. Listo para producción; no es un vídeo grabado.
 
-## EL ENTORNO CAMBIA · 00:00–00:55
+**Condición de confidencialidad:** no mostrar el nombre, texto ni alternativas de ninguna de las crisis disponibles en el selector del profesor. El vídeo debe servir para cualquiera de las cinco.
 
-La tercera ronda introduce una decisión especialmente importante. Las empresas operan en un entorno incierto: la energía y las materias primas pueden encarecerse, la demanda puede disminuir y los compradores pueden exigir mayor calidad o sostenibilidad. En STRATEGOS IA el profesor selecciona un acontecimiento de mercado para la ronda; ese acontecimiento forma parte de las reglas compartidas de la partida. Leedlo en pantalla antes de decidir. No supongáis que todos los eventos ocurren a la vez, ni que todas las empresas reciben un acontecimiento secreto diferente. El evento efectivamente seleccionado es el que determina las condiciones de esta ronda.
+## APERTURA · 00:00–00:45
 
-## INTERPRETAR EL EVENTO · 00:55–01:55
+Comienza la tercera ronda de STRATEGOS IA. Hasta ahora habéis definido vuestra estrategia competitiva, habéis participado en un mercado común y habéis tenido ocasión de interpretar los primeros resultados. Pero dirigir una empresa no consiste en repetir un plan cuando cambian las circunstancias. En esta ronda vais a tomar nuevas decisiones económicas, escoger una iniciativa estratégica y, además, deberéis estar preparados para un acontecimiento extraordinario que el profesor podrá activar por sorpresa.
 
-Si aparece una crisis de materias primas, aumentan los costes asociados al material virgen: el uso de materia recuperada puede amortiguar parte de ese impacto, aunque también tiene costes. Si se produce una caída de demanda, el mercado de referencia se reduce y las empresas deben ser más prudentes con la producción y el precio. Una compra pública verde aumenta la relevancia del desempeño ambiental al competir por clientes. Un control de calidad más exigente favorece a las empresas con mejores indicadores técnicos. También puede mantenerse un mercado estable. En todos los casos, lo relevante es detectar qué variable altera el acontecimiento y comprobar cómo encaja con vuestra posición actual.
+Lo importante es que no abandonéis vuestra estrategia inicial por el mero hecho de que aparezca un problema. Debéis analizar qué ha cambiado, qué recursos tenéis y cómo responder con coherencia.
 
-## LA SEGUNDA ELECCIÓN CERRADA · 01:55–03:05
+## PRIMER CAMBIO: EL EVENTO DE MERCADO · 00:45–01:45
 
-Ahora debéis elegir una iniciativa estratégica entre tres alternativas. A: automatización y eficiencia productiva; refuerza una orientación a costes y procesos. B: innovación, calidad y circularidad; encaja con una apuesta por diferenciarse. C: especialización comercial; refuerza una estrategia de enfoque en un segmento. Estas opciones no sustituyen a las siete decisiones numéricas. Son compromisos estratégicos adicionales. En el cálculo, una iniciativa coherente con la estrategia elegida en la ronda uno suma dos puntos desde esta ronda; una que entra en contradicción resta dos. Además, siguen aplicándose los tres puntos positivos o negativos por coherencia de inversiones y precio. En consecuencia, el ajuste total de las rondas tres y cuatro puede oscilar entre menos cinco y más cinco puntos. Si comenzasteis una partida antes de que existiera la elección estratégica, el formulario de esta ronda os permite registrar ahora vuestra estrategia inicial sin recalcular las anteriores.
+Antes de completar las decisiones ordinarias, consultad el evento de mercado que aparece en el panel. Puede existir estabilidad o una alteración de costes, demanda, condiciones ambientales o exigencias de calidad. Este evento es visible y afecta a las reglas económicas de la ronda. Por ejemplo, puede modificar el tamaño del mercado o la manera en que determinados atributos influyen en el reparto de la demanda.
 
-## COHERENCIA Y RIESGO · 03:05–04:10
+Revisadlo con atención y contrastadlo con los datos de vuestra empresa. ¿Qué capacidad tenéis? ¿Cuánta caja queda después de las dos primeras rondas? ¿Es razonable mantener el mismo precio? ¿Hay margen para invertir en calidad o en sostenibilidad? El evento es común al mercado, pero no todas las empresas están igual de preparadas para afrontarlo.
 
-No confundáis una iniciativa con una inversión automática. Elegir innovación no os descuenta por sí solo una cantidad de caja ni compra maquinaria: las inversiones se registran en sus campos económicos correspondientes. Un equipo que eligió diferenciación, selecciona innovación, destina recursos a I+D y medio ambiente y mantiene una política de precios coherente puede obtener el ajuste máximo de cinco puntos. Por el contrario, seleccionar una iniciativa contraria a la estrategia o declarar una estrategia que no se respalda con recursos puede penalizar la nota. La clave es contrastar tres dimensiones: lo que prometéis hacer, lo que invertís y cómo respondéis al evento. Ninguna opción gana de forma automática porque el mercado continúa calculando ventas y beneficios.
+**No confundáis este evento de mercado con el evento secreto.** Son mecanismos distintos: el primero forma parte del escenario económico habitual; el segundo exigirá, si se activa, una nueva decisión extraordinaria.
 
-## CIERRE Y DECISIÓN · 04:10–04:55
+## SEGUNDA ELECCIÓN ESTRATÉGICA · 01:45–02:55
 
-Revisad los resultados de las dos primeras rondas, la caja disponible, la calidad, la capacidad y el acontecimiento anunciado por el profesor. Elegid una única iniciativa. Después introducid precio, producción, cuatro inversiones y porcentaje de materia recuperada, respetando el límite conjunto de inversión y la reserva mínima. Debatid qué riesgos aceptáis y cómo protegeréis la rentabilidad futura. Enviad la decisión y comprobad la confirmación. Esta iniciativa quedará registrada y seguirá influyendo en la valoración de coherencia durante la última ronda. La pregunta final es: ¿habéis reaccionado al cambio sin perder vuestra identidad estratégica?
+En esta ronda debéis elegir una iniciativa prioritaria entre tres alternativas. La primera es **automatización y eficiencia**, vinculada a la mejora de procesos productivos. La segunda es **innovación, calidad y circularidad**, orientada al desarrollo de capacidades y productos diferenciados. La tercera es **especialización comercial**, pensada para concentrar los esfuerzos en un segmento concreto del mercado.
+
+Esta elección debe tener relación con la estrategia competitiva que seleccionasteis en la ronda uno. Si apostasteis por liderazgo en costes, diferenciación o enfoque, preguntaos si la iniciativa actual refuerza ese posicionamiento.
+
+El motor incorpora un ajuste de más dos puntos cuando existe coherencia entre estrategia e iniciativa, o de menos dos cuando se contradicen. Además, sigue comprobando la relación entre la estrategia inicial, las inversiones y el precio, con un ajuste de más tres o menos tres puntos. De este modo, el ajuste ordinario de coherencia puede llegar a más cinco o menos cinco puntos. La iniciativa, por sí sola, no descuenta dinero ni aumenta la capacidad productiva: los efectos económicos proceden de las siete variables que decidiréis a continuación.
+
+## LAS SIETE DECISIONES Y SU ENTREGA · 02:55–03:55
+
+Volvéis a seleccionar precio, producción prevista, inversión en capacidad, inversión en investigación y calidad, inversión ambiental, inversión comercial y porcentaje de materia prima recuperada. Las cuatro inversiones monetarias no pueden superar conjuntamente ciento cincuenta mil euros por ronda, y vuestra empresa debe conservar al menos quince mil euros de tesorería en el momento de invertir.
+
+No decidáis mirando solo la puntuación. Una inversión puede ser coherente con vuestra estrategia y, sin embargo, resultar poco prudente si la liquidez es insuficiente. Revisad los datos, debatid las prioridades e introducid los valores.
+
+Después pulsad **Enviar decisiones del equipo** y comprobad el mensaje de confirmación. Una entrega registrada no se puede editar durante la ronda. Si el profesor ha activado la situación extraordinaria antes de vuestra entrega, igualmente tendréis que completar primero estas decisiones ordinarias.
+
+## EL EVENTO SECRETO: UNA NUEVA DECISIÓN · 03:55–05:15
+
+En cualquier momento mientras esté abierta la ronda tres, el profesor puede activar una situación extraordinaria igual para todos los equipos. El escenario concreto permanecerá oculto hasta entonces. Cuando se active, la aplicación mostrará una notificación, incluso si estáis consultando el apartado de vídeo, y os permitirá ir directamente a **Decisiones**.
+
+Leed la situación con atención. Encontraréis **cuatro alternativas de respuesta**. Debéis elegir solo una y redactar una justificación estratégica. Esa explicación debe tener entre veinte y mil quinientos caracteres: no bastará con escribir una palabra ni con limitarse a repetir el enunciado.
+
+Pensad en las consecuencias de cada alternativa, su compatibilidad con vuestra estrategia inicial y los riesgos que estáis dispuestos a asumir. No busquéis únicamente una solución que parezca atractiva a corto plazo. Valorad los efectos potenciales sobre vuestros objetivos, los recursos de la empresa y la continuidad de vuestro posicionamiento.
+
+Una vez que enviéis la respuesta extraordinaria, el sistema la registrará y **no podréis modificarla**. El profesor verá qué equipos han contestado y cuáles siguen pendientes. Mientras haya respuestas pendientes, la ronda no se podrá publicar por el procedimiento habitual, aunque el docente dispone de un cierre excepcional con penalización para los equipos que no contesten.
+
+## CÓMO AFECTA A LA EVALUACIÓN · 05:15–06:15
+
+La respuesta al evento secreto se valora por su coherencia con vuestra estrategia inicial. En el modelo actual, la alternativa que mejor encaja con ella puede aportar **cuatro puntos a la ronda tres** y dejar un efecto de **dos puntos en la ronda cuatro**. Una alternativa menos alineada supone un ajuste de **menos un punto en cada una de esas dos rondas**. La falta de respuesta, cuando el profesor debe cerrar excepcionalmente, implica **menos cuatro puntos en la tercera y menos dos en la cuarta**. La puntuación total de cada ronda siempre queda dentro del intervalo de cero a cien.
+
+Estos ajustes son didácticos y no modifican automáticamente las ventas, los costes ni la tesorería. La justificación escrita queda registrada para el análisis docente; el motor no califica automáticamente su calidad mediante inteligencia artificial. Por eso conviene elegir con criterio y estar preparados para defender vuestra respuesta.
+
+## CIERRE · 06:15–06:50
+
+Antes de dar por terminada esta ronda, verificad dos cosas distintas: que la decisión económica ordinaria figura como entregada y, cuando el profesor haya activado el evento extraordinario, que también aparezca confirmada vuestra respuesta a la crisis.
+
+En la siguiente ronda tendréis que consolidar la estrategia y convivir con las consecuencias de las elecciones anteriores. La pregunta que debe acompañaros es esta: **¿hemos sido capaces de adaptarnos sin perder la lógica de nuestra estrategia?**
 
 ## Planos y recursos visuales sugeridos
 
-1. Titular de evento seleccionado por el profesor, sin eventos secretos inventados
-2. Cinco escenarios de mercado y variable principal afectada
-3. Tarjetas A eficiencia, B innovación, C especialización y enlace con R1
-4. Diagrama ±3 por inversiones y ±2 por iniciativa, total ±5
-5. Interfaz real de selección y entrega
+1. Línea temporal real: R1 estrategia, R2 aprendizaje, R3 adaptación, R4 consolidación
+2. Pantalla del evento de mercado ordinario, destacando que modifica condiciones económicas
+3. Selector real de las tres iniciativas estratégicas de R3, con sus etiquetas visibles
+4. Formulario de siete variables y mensaje de entrega confirmada
+5. **Aviso neutral**: «El profesor ha activado un evento extraordinario». Usar una maqueta genérica, sin mostrar el escenario ni las cuatro opciones reales
+6. Pantalla representativa del formulario extraordinario con opciones A, B, C y D redactadas como «Alternativa A», «Alternativa B»…, y un campo de justificación; no revelar ninguna solución programada
+7. Animación de puntuaciones: coherencia estratégica ordinaria y ajuste adicional por crisis, diferenciando efectos R3 y R4
+8. Confirmación de entrega y transición a ronda 4
 
-## Cierre de producción
+## Criterios de realización
 
-Mostrar la pantalla auténtica de STRATEGOS IA, subtítulos revisados y el botón de continuación a las decisiones cuando se trate de una ronda. Los elementos visuales son ilustrativos; no atribuir resultados ficticios a equipos reales.
+- **La crisis concreta no puede aparecer en el vídeo**, ni siquiera brevemente durante una captura de pantalla del selector docente. Se mostrará al alumno solo cuando el profesor la active.
+- No mezclar el selector de eventos económicos ya existente con la respuesta al evento secreto.
+- No dar ejemplos que revelen la opción alineada con costes, diferenciación o enfoque para ninguno de los cinco eventos.
+- La nueva decisión extraordinaria se toma **dentro de la ronda 3**, no en una quinta ronda.
+- Mostrar que el alumno debe confirmar **dos entregas diferentes** cuando se active el evento.
+- No incluir Business Model Canvas; mostrar únicamente la interfaz vigente.
