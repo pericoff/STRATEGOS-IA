@@ -2,7 +2,7 @@
 
 **Simulación:** STRATEGOS IA · Universidad de Jaén
 
-**Duración orientativa:** 6–7 minutos, según ritmo de locución y capturas de pantalla.
+**Duración orientativa:** 7–8 minutos, con pausas para observar la interfaz.
 
 **Formato:** narración en español de España, tono docente claro, con interfaz real del alumno. No mostrar Canvas.
 
@@ -10,13 +10,13 @@
 
 **Condición de confidencialidad:** no mostrar el nombre, texto ni alternativas de ninguna de las crisis disponibles en el selector del profesor. El vídeo debe servir para cualquiera de las cinco.
 
-## APERTURA · 00:00–00:45
+## APERTURA · 00:00–00:50
 
 Comienza la tercera ronda de STRATEGOS IA. Hasta ahora habéis definido vuestra estrategia competitiva, habéis participado en un mercado común y habéis tenido ocasión de interpretar los primeros resultados. Pero dirigir una empresa no consiste en repetir un plan cuando cambian las circunstancias. En esta ronda vais a tomar nuevas decisiones económicas, escoger una iniciativa estratégica y, además, deberéis estar preparados para un acontecimiento extraordinario que el profesor podrá activar por sorpresa.
 
 Lo importante es que no abandonéis vuestra estrategia inicial por el mero hecho de que aparezca un problema. Debéis analizar qué ha cambiado, qué recursos tenéis y cómo responder con coherencia.
 
-## PRIMER CAMBIO: EL EVENTO DE MERCADO · 00:45–01:45
+## PRIMER CAMBIO: EL EVENTO DE MERCADO · 00:50–02:00
 
 Antes de completar las decisiones ordinarias, consultad el evento de mercado que aparece en el panel. Puede existir estabilidad o una alteración de costes, demanda, condiciones ambientales o exigencias de calidad. Este evento es visible y afecta a las reglas económicas de la ronda. Por ejemplo, puede modificar el tamaño del mercado o la manera en que determinados atributos influyen en el reparto de la demanda.
 
@@ -24,7 +24,7 @@ Revisadlo con atención y contrastadlo con los datos de vuestra empresa. ¿Qué 
 
 **No confundáis este evento de mercado con el evento secreto.** Son mecanismos distintos: el primero forma parte del escenario económico habitual; el segundo exigirá, si se activa, una nueva decisión extraordinaria.
 
-## SEGUNDA ELECCIÓN ESTRATÉGICA · 01:45–02:55
+## SEGUNDA ELECCIÓN ESTRATÉGICA · 02:00–03:15
 
 En esta ronda debéis elegir una iniciativa prioritaria entre tres alternativas. La primera es **automatización y eficiencia**, vinculada a la mejora de procesos productivos. La segunda es **innovación, calidad y circularidad**, orientada al desarrollo de capacidades y productos diferenciados. La tercera es **especialización comercial**, pensada para concentrar los esfuerzos en un segmento concreto del mercado.
 
@@ -32,7 +32,7 @@ Esta elección debe tener relación con la estrategia competitiva que selecciona
 
 El motor incorpora un ajuste de más dos puntos cuando existe coherencia entre estrategia e iniciativa, o de menos dos cuando se contradicen. Además, sigue comprobando la relación entre la estrategia inicial, las inversiones y el precio, con un ajuste de más tres o menos tres puntos. De este modo, el ajuste ordinario de coherencia puede llegar a más cinco o menos cinco puntos. La iniciativa, por sí sola, no descuenta dinero ni aumenta la capacidad productiva: los efectos económicos proceden de las siete variables que decidiréis a continuación.
 
-## LAS SIETE DECISIONES Y SU ENTREGA · 02:55–03:55
+## LAS SIETE DECISIONES Y SU ENTREGA · 03:15–04:20
 
 Volvéis a seleccionar precio, producción prevista, inversión en capacidad, inversión en investigación y calidad, inversión ambiental, inversión comercial y porcentaje de materia prima recuperada. Las cuatro inversiones monetarias no pueden superar conjuntamente ciento cincuenta mil euros por ronda, y vuestra empresa debe conservar al menos quince mil euros de tesorería en el momento de invertir.
 
@@ -40,7 +40,7 @@ No decidáis mirando solo la puntuación. Una inversión puede ser coherente con
 
 Después pulsad **Enviar decisiones del equipo** y comprobad el mensaje de confirmación. Una entrega registrada no se puede editar durante la ronda. Si el profesor ha activado la situación extraordinaria antes de vuestra entrega, igualmente tendréis que completar primero estas decisiones ordinarias.
 
-## EL EVENTO SECRETO: UNA NUEVA DECISIÓN · 03:55–05:15
+## EL EVENTO SECRETO: UNA NUEVA DECISIÓN · 04:20–05:50
 
 En cualquier momento mientras esté abierta la ronda tres, el profesor puede activar una situación extraordinaria igual para todos los equipos. El escenario concreto permanecerá oculto hasta entonces. Cuando se active, la aplicación mostrará una notificación, incluso si estáis consultando el apartado de vídeo, y os permitirá ir directamente a **Decisiones**.
 
@@ -50,13 +50,13 @@ Pensad en las consecuencias de cada alternativa, su compatibilidad con vuestra e
 
 Una vez que enviéis la respuesta extraordinaria, el sistema la registrará y **no podréis modificarla**. El profesor verá qué equipos han contestado y cuáles siguen pendientes. Mientras haya respuestas pendientes, la ronda no se podrá publicar por el procedimiento habitual, aunque el docente dispone de un cierre excepcional con penalización para los equipos que no contesten.
 
-## CÓMO AFECTA A LA EVALUACIÓN · 05:15–06:15
+## CÓMO AFECTA A LA EVALUACIÓN · 05:50–06:50
 
 La respuesta al evento secreto se valora por su coherencia con vuestra estrategia inicial. En el modelo actual, la alternativa que mejor encaja con ella puede aportar **cuatro puntos a la ronda tres** y dejar un efecto de **dos puntos en la ronda cuatro**. Una alternativa menos alineada supone un ajuste de **menos un punto en cada una de esas dos rondas**. La falta de respuesta, cuando el profesor debe cerrar excepcionalmente, implica **menos cuatro puntos en la tercera y menos dos en la cuarta**. La puntuación total de cada ronda siempre queda dentro del intervalo de cero a cien.
 
 Estos ajustes son didácticos y no modifican automáticamente las ventas, los costes ni la tesorería. La justificación escrita queda registrada para el análisis docente; el motor no califica automáticamente su calidad mediante inteligencia artificial. Por eso conviene elegir con criterio y estar preparados para defender vuestra respuesta.
 
-## CIERRE · 06:15–06:50
+## CIERRE · 06:50–07:30
 
 Antes de dar por terminada esta ronda, verificad dos cosas distintas: que la decisión económica ordinaria figura como entregada y, cuando el profesor haya activado el evento extraordinario, que también aparezca confirmada vuestra respuesta a la crisis.
 
