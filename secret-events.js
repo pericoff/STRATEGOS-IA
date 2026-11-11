@@ -21,11 +21,11 @@ const SecretEvents=(()=>{
  function teacherPanel(db){
   if(db.round!==3)return '';
   const se=db.secretEvent||{};
-  const ready=db.phase==='decisions'&&db.teams.filter(t=>t.active!==false).every(t=>t.submitted);
+  const ready=db.phase==='decisions';
   const options=Object.entries(events).map(([id,event])=>'<option value="'+id+'">'+safe(event.name)+'</option>').join('');
   const responses=db.teams.filter(t=>t.active!==false).map(t=>'<tr><td>'+safe(t.name)+'</td><td>'+(t.secretAnswer?safe(t.secretAnswer.option==='skip'?'Sin respuesta':events[se.id]?.options[t.secretAnswer.option]||'Respondido'):'Pendiente')+'</td></tr>').join('');
   return '<section class="card"><h3>Evento secreto · Ronda 3</h3>'+
-   (!se.active?'<p>Elige una crisis común para todos los equipos. Se mantendrá oculta hasta pulsar activar. Deben haber entregado primero sus decisiones ordinarias.</p><label>Escenario sorpresa</label><select id="secretEventType">'+options+'</select><button id="activateSecretEvent" '+(!ready?'disabled':'')+'>Activar evento secreto para todos</button><p class="muted">'+(ready?'Todas las decisiones ordinarias están entregadas.':'Pendiente de las decisiones ordinarias de todos los equipos.')+'</p>':
+   (!se.active?'<p>Elige una crisis común para todos los equipos. No aparecerá en el portal del alumnado hasta que la actives. Si quedan entregas ordinarias pendientes, los equipos deberán enviarlas antes de responder a la crisis.</p><label>Escenario sorpresa</label><select id="secretEventType">'+options+'</select><button id="activateSecretEvent" '+(!ready?'disabled':'')+'>Activar evento secreto para todos</button><p class="muted">'+(ready?'Evento disponible para activar manualmente en cualquier momento de la ronda 3.':'La ronda ya se ha cerrado.')+'</p>':
    '<div class="alert"><b>Evento activado:</b> '+safe(events[se.id]?.name||'Desconocido')+'</div><p>Los alumnos deben responder la crisis antes de publicar los resultados de la ronda 3.</p><table><thead><tr><th>Equipo</th><th>Respuesta secreta</th></tr></thead><tbody>'+responses+'</tbody></table>')+'</section>';
  }
  function studentPanel(db,t){
@@ -37,5 +37,10 @@ const SecretEvents=(()=>{
   if(t.secretAnswer)return '<section class="card"><h3>Decisión extraordinaria entregada</h3><p><b>'+safe(e.name)+'</b>: '+safe(e.options[t.secretAnswer.option]||'Sin respuesta')+'</p><p>La respuesta está registrada y no puede cambiarse.</p></section>';
   return '<section class="card"><div class="alert"><b>EVENTO EXTRAORDINARIO · '+safe(e.name)+'</b><p>'+safe(e.story)+'</p></div><p>Debéis tomar una nueva decisión, independiente de las siete decisiones económicas y de la iniciativa estratégica elegida.</p><form id="secretResponseForm">'+Object.entries(e.options).map(([k,v])=>'<label style="display:block;margin:10px 0"><input type="radio" name="option" value="'+k+'" required style="width:auto"> <b>'+k+'.</b> '+safe(v)+'</label>').join('')+'<label for="secretReason">Justificación estratégica (mínimo 20 caracteres)</label><textarea id="secretReason" name="reason" minlength="20" maxlength="1500" required placeholder="Explica por qué es coherente con vuestra estrategia y los riesgos que asumís"></textarea><button type="submit">Enviar decisión extraordinaria</button></form></section>';
  }
- return {events,evaluate,teacherPanel,studentPanel};
+ function studentBanner(db,t){
+  const se=db.secretEvent;
+  if(db.round!==3||db.phase!=='decisions'||!se?.active||!events[se.id]||t.secretAnswer)return '';
+  return '<div class="alert" role="status" style="margin:14px 0"><b>Evento extraordinario activado: '+safe(events[se.id].name)+'</b><p>El profesor ha anunciado una crisis para todos los equipos. '+(t.submitted?'Debes presentar tu nueva decisión antes de que termine la ronda.':'Envía primero tus decisiones económicas habituales.')+'</p><button id="goSecretEvent" type="button">Ver y responder al evento</button></div>';
+ }
+ return {events,evaluate,teacherPanel,studentPanel,studentBanner};
 })();
